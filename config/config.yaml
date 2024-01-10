@@ -1,0 +1,10 @@
+# when pipeline is executed, a folder named artifacts will be created
+
+artifacts_root: artifacts
+
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://github.com/vijay-kshitij/MLFlow/raw/main/winequality-data.zip
+  local_data_file: artifacts/data_ingestion/data.zip
+  unzip_dir: artifacts/data_ingestion
