@@ -16,3 +16,8 @@ data_validation:
   # status file will return true/false depending on whether the data is in
   # correct format to enter into the training pipeline.
   STATUS_FILE: artifacts/data_validation/status.txt  
+
+
+data_transformation:
+  root_dir: artifacts/data_transformation
+  data_path: artifacts/data_ingestion/winequality-red.csv
